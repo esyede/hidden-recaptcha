@@ -1,0 +1,40 @@
+{
+    "name": "esyede/hidden-recaptcha",
+    "description": "Hidden reCAPTCHA For Laravel.",
+    "keywords": [
+        "recaptcha",
+        "no-captcha",
+        "captcha",
+        "hidden",
+        "hidden-recaptcha",
+        "invisible",
+        "invisible-recaptcha",
+        "laravel",
+        "php"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Suyadi",
+            "homepage": "https://esyede.my.id"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "illuminate/support": "^8.0",
+        "illuminate/view": "^8.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Esyede\\HiddenReCaptcha\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Esyede\\HiddenReCaptcha\\HiddenReCaptchaServiceProvider"
+            ]
+        }
+    }
+}
